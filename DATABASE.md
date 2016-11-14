@@ -11,7 +11,10 @@ sessionID : Int | valueID | fieldId
 sessionID : Int | formID : Int
 
 ## Forms
-formId : Int | secretID : Int | publicId : Int | answersAccepted : Bool | answersEditable : Bool | sessionAwareness : Bool 
+formId : Int | secretID : Int | publicId : Int | answersAccepted : Bool | answersEditable : Bool (| sessionAwareness : Bool )
+
+## FormMetadata
+formId | formTitle | formDescription | formCreateDate 
 
 ## FieldDefinitions
 fieldID | name | type | description | mandatory | length | regexp | min | max | integerOnly | minDate | maxDate | dayOfWeek | listId | multiselect
