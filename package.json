@@ -1,0 +1,11 @@
+{
+  "name": "formcreator",
+  "version": "0.0.0",
+  "description": " A web application allowing you to create a form, collect answers, and show them in a structured fashion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balint Erdosi",
+  "license": "BSD-2-Clause"
+}
