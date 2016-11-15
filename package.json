@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Balint Erdosi",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.14.0"
+  },
+  "devDependencies": {
+    "gulp-watch": "~4.3.10",
+    "gulp": "~3.9.1"
+  }
 }

@@ -5,7 +5,7 @@ A web application allowing you to create a form, collect answers, and show them 
 ## Form Fields
 
 It can be a:
-* text, (minlength, maxlength)
+* text, (minlength, maxlength0)
 * long text, (minlength, maxlength)
 * integer input, (min, max)
 * floating point input (min, max)
@@ -34,7 +34,7 @@ This page has :
 		- should there be more possibility per session to submit answers?
 		- can the answers be edited later on ? Or just be shown?
 
-### /created/
+### /create/
 Processes the /edit endpoint's output. Shows :
 - public URL
 - secret (edit and admin) URL
